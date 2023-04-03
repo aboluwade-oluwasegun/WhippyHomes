@@ -1,12 +1,11 @@
 import React from "react";
 import "./Feature.css";
-import featureImg2 from "./featureimg2.png";
 
 const Feature1 = (props) => {
   return (
     <div className={props.className}>
       <div className="feature-image__container">
-        <img src={featureImg2} alt="product" />
+        <img src={props.img} alt="product" />
       </div>
       <p className="feature-text">
         Our platform makes it easy for landlords to manage their properties,
