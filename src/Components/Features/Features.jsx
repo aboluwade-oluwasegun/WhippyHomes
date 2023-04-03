@@ -11,7 +11,7 @@ const Features = () => {
         Experience hassle-free property management like never before with
         WhippyHomes.
       </p>
-      <Feature className="feature1" img={featureImg1} />
+      {/* <Feature className="feature1" img={featureImg1} /> */}
       <Feature className="feature2" img={featureImg2} />
       <Button className="features-btn" />
     </section>
