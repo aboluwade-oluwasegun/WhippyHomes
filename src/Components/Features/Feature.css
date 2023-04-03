@@ -1,0 +1,45 @@
+.feature1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  margin-top: 6rem;
+}
+.feature2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-direction: row-reverse;
+  margin-bottom: 6rem;
+}
+.feature-image__container {
+  width: 25rem;
+  /* width: 55%; */
+  height: 25rem;
+  background-color: var(--secondaryColor);
+}
+.feature1 .feature-image__container img {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+}
+.feature2 .feature-image__container img {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  top: 2rem;
+  right: 2rem;
+}
+.feature-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  /* Blue */
+  color: #3a4b69;
+  /* width: 45%; */
+}
