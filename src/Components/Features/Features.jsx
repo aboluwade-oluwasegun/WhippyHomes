@@ -1,5 +1,5 @@
 import Feature from "./Feature";
-import featureImg1 from "./featureimg1.png";
+// import featureImg1 from "./featureimg1.png";
 import featureImg2 from "./featureimg1.png";
 import Button from "../Button/Button";
 import "./Features.css";
