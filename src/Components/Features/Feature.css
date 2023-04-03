@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 9rem;
-  margin-top: 6rem;
+  gap: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
 }
 .feature2 {
   display: flex;
@@ -14,30 +15,30 @@
   margin-bottom: 6rem;
 }
 .feature-image__container {
-  width: 25rem;
+  width: 20rem;
   /* width: 55%; */
-  height: 25rem;
+  height: 20rem;
   background-color: var(--secondaryColor);
 }
 .feature1 .feature-image__container img {
   width: inherit;
   height: inherit;
   position: relative;
-  top: 2rem;
-  left: 2rem;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 .feature2 .feature-image__container img {
   width: inherit;
   height: inherit;
   position: relative;
-  top: 2rem;
-  right: 2rem;
+  top: 1.5rem;
+  right: 1.5rem;
 }
 .feature-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 1.2rem;
   line-height: 39px;
   /* Blue */
   color: #3a4b69;

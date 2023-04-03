@@ -3,7 +3,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 0.9rem;
+  padding: 1rem 0.9rem;
 }
 .copyright {
   display: flex;
@@ -13,7 +13,7 @@ footer {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 22px;
 
   color: #ffffff;
@@ -22,7 +22,7 @@ footer {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.2rem;
   /* identical to box height */
 
@@ -36,8 +36,8 @@ footer {
   align-items: center;
 }
 .socials-links a img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
 }
 @media (max-width: 700px) {
   .copyright {

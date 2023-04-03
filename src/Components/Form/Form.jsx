@@ -30,9 +30,10 @@ const Form = (props) => {
 
     if (
       regex.test(enteredEmail) &&
-      !enteredPhoneNo.trim().length < 11 &&
+      enteredPhoneNo.trim().length >= 11 &&
       enteredName.trim().length > 0
     ) {
+      console.log("correct");
       const data = {
         name: enteredName,
         phonenumber: enteredPhoneNo,
@@ -47,7 +48,7 @@ const Form = (props) => {
     if (!regex.test(enteredEmail)) {
       setInvalidEmail(true);
     }
-    if (+enteredPhoneNo.length < 11) {
+    if (enteredPhoneNo.length < 11) {
       setInvalidPhoneNo(true);
     }
     if (!enteredName.trim().length > 0) {
