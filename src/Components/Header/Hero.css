@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 104px;
+  padding-bottom: 10rem;
+  background-color: #f2f7ff;
+  gap: 1.5rem;
+}
+.hero-content {
+  width: 50%;
+}
+.hero-content__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  color: var(--primaryColor);
+  margin-top: 6rem;
+}
+.hero-content__description {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+}
+.hero-content__description span,
+.hero-content__title span {
+  color: var(--secondaryColor);
+}
+.hero-image__container {
+  height: 35rem;
+  width: 50%;
+  position: relative;
+  background-color: red;
+}
+.hero-image__container img {
+  width: 94%;
+  height: 94%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-image__container--effect1 {
+  width: 10%;
+  height: 10%;
+  background-color: var(--primaryColor);
+  position: absolute;
+  top: 0;
+
+  right: 0;
+}
+.hero-image__container--effect2 {
+  width: 10%;
+  height: 10%;
+  background-color: var(--secondaryColor);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

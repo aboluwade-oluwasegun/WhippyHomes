@@ -1,0 +1,40 @@
+/* .waitlist-cta {
+  background-color: #3a4b69;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  padding: 2rem;
+  color: #ffffff;
+  
+} */
+.waitlist-cta {
+  padding: 0.7rem;
+  border-radius: px;
+  border: none;
+  /* width: 100%; */
+  background: #3a4b69;
+  gap: 10px;
+
+  font-family: "Lato", sans-serif;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #fefefe;
+  text-align: center;
+}
+.form-btn {
+  width: 100%;
+}
+.features-btn {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
