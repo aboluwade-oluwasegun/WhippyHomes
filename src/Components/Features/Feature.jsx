@@ -1,9 +1,12 @@
 import React from "react";
 import "./Feature.css";
-// import featureImg from "./featureimg1.png";
-// import featureImg2 from "./featureimg1.png";
+// import featureImg1 from "./featureimg1.png";
+// import featureImg2 from "./featureimg2.png";
 
 const Feature = (props) => {
+  // if (props.value === 1) {
+  //   const img = featureImg
+  // }
   return (
     <div className={props.className}>
       <div className="feature-image__container">
