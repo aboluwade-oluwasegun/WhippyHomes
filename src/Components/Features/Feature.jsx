@@ -1,5 +1,8 @@
 import React from "react";
 import "./Feature.css";
+// import featureImg from "./featureimg1.png";
+// import featureImg2 from "./featureimg1.png";
+
 const Feature = (props) => {
   return (
     <div className={props.className}>
