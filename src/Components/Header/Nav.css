@@ -5,3 +5,28 @@ nav {
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
+@media (max-width: 1100px) {
+  nav {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 1000px) {
+  nav {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 950px) {
+  nav {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

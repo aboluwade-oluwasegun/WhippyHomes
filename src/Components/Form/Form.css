@@ -31,3 +31,13 @@ form {
 .invalid-email {
   color: red;
 }
+@media (max-width: 950px) {
+  .form label {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 570px) {
+  .form label {
+    font-size: 1rem;
+  }
+}
