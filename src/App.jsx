@@ -34,7 +34,7 @@ function App() {
       {isSuccess && <SuccessModal onCloseModal={closeModal} />}
       <Nav />
       <Hero data={postWaitList} />
-      {/* <Features /> */}
+      <Features />
       <WaitlistSection />
       <Footer />
     </div>

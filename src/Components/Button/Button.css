@@ -49,3 +49,23 @@
   align-items: center;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .features-btn {
+    width: 50%;
+  }
+}
+@media (max-width: 750px) {
+  .features-btn {
+    width: 55%;
+  }
+}
+@media (max-width: 550px) {
+  .features-btn {
+    width: 70%;
+  }
+}
+@media (max-width: 400px) {
+  .features-btn {
+    width: 85%;
+  }
+}
