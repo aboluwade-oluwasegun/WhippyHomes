@@ -4,7 +4,7 @@ import waitlistImg from "./waitlistImg.png";
 import "./WaitlistSection.css";
 const WaitlistSection = () => {
   return (
-    <section className="waitlistSection">
+    <section className="waitlistSection" id="waitlist">
       <div className="waitlist-image__container">
         <img src={waitlistImg} alt="waitlist Image" />
       </div>

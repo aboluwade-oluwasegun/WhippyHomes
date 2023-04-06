@@ -1,22 +1,8 @@
-/* .waitlist-cta {
-  background-color: #3a4b69;
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-
-  padding: 2rem;
-  color: #ffffff;
-  
-} */
 .waitlist-cta {
   padding: 0.7rem;
   border-radius: px;
-  border: none;
   /* width: 100%; */
   background: #3a4b69;
-  gap: 10px;
 
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -37,35 +23,9 @@
 
   box-shadow: inset 450px 0 0 0 #fff;
   color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
 }
 .form-btn {
   width: 100%;
-}
-.features-btn {
-  width: 45%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-@media (max-width: 800px) {
-  .features-btn {
-    width: 50%;
-  }
-}
-@media (max-width: 750px) {
-  .features-btn {
-    width: 55%;
-  }
-}
-@media (max-width: 550px) {
-  .features-btn {
-    width: 70%;
-  }
-}
-@media (max-width: 400px) {
-  .features-btn {
-    width: 85%;
-  }
+  border: 2px solid var(--primaryColor);
 }
