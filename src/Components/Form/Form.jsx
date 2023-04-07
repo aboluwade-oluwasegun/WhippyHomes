@@ -21,7 +21,6 @@ const Form = (props) => {
     setInvalidEmail(false);
   };
   const enteredPhoneNoHandler = (e) => {
-    console.log(enteredPhoneNo.length, typeof enteredPhoneNo);
     setEnteredPhoneNo(e.target.value);
     setInvalidPhoneNo(false);
   };
@@ -33,7 +32,6 @@ const Form = (props) => {
       enteredPhoneNo.trim().length >= 11 &&
       enteredName.trim().length > 0
     ) {
-      console.log("correct");
       const data = {
         name: enteredName,
         phonenumber: enteredPhoneNo,
@@ -57,15 +55,12 @@ const Form = (props) => {
   };
   if (invalidName) {
     content = "Name fields must not be empty";
-    console.log(content);
   }
   if (invalidEmail) {
     content = "Email must contain @ and must be the right mail format";
-    console.log(content);
   }
   if (invalidPhoneNo) {
     content = "Phone Number must be greater than 11 digits";
-    console.log(content);
   }
   return (
     <form className="form" onSubmit={submitHandler}>

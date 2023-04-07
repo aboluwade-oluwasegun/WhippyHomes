@@ -42,43 +42,6 @@
   width: 80%;
   color: var(--primaryColor);
 }
-.waitlist-cta {
-  padding: 0.7rem;
-  border-radius: px;
-  border: none;
-  /* width: 100%; */
-  background: #3a4b69;
-  gap: 10px;
-
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 29px;
-  color: #fefefe;
-  text-align: center;
-}
-.features-btn a {
-  color: white;
-  text-decoration: none;
-}
-.features-btn {
-  width: 45%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-.features-btn:hover {
-  transition: ease-in 1s;
-
-  box-shadow: inset 400px 0 0 0 var(--secondaryColor);
-  color: var(--primaryColor);
-}
-.features-btn a:hover {
-  color: var(--primaryColor);
-}
 @media (max-width: 1200px) {
   .waitlist-content {
     width: 45%;
