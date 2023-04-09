@@ -2,7 +2,7 @@ import React from "react";
 import "./Button.css";
 const Button = (props) => {
   const scrollEffectHandler = () => {
-    if (props.click === "yeah") {
+    if (props.click === "click") {
       const waitlist = document.querySelector(".waitlistSection");
       waitlist.scrollIntoView({ behavior: "smooth" });
     }

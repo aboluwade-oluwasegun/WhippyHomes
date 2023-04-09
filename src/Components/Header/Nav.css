@@ -30,3 +30,14 @@ nav {
     padding-right: 2rem;
   }
 }
+@media (max-width: 428px) {
+  nav {
+    /* margin: 0 auto; */
+    text-align: center;
+    background-color: #f2f7ff;
+  }
+  nav img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

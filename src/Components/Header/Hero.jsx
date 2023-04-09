@@ -1,27 +1,24 @@
-import React from "react";
-import Form from "..//Form/Form";
-import "./Hero.css";
-import heroImg from "./heroImg.png";
+import { useState, useEffect } from "react";
+import DesktopHero from "./DesktopHero";
+import MobileHero from "./mobileHero";
 function Hero(props) {
-  return (
-    <header>
-      <div className="hero-content">
-        <p className="hero-content__title">
-          <span>Whippyhomes</span>, your all-in-one property management
-          platform.
-        </p>
-        <p className="hero-content__description">
-          Be among our founding members and <span> join the waitlist!</span>
-        </p>
-        <Form data={props.data} />
-      </div>
-      <div className="hero-image__container">
-        <div className="hero-image__container--effect1"></div>
-        <div className="hero-image__container--effect2"></div>
-        <img src={heroImg} alt="hero-image" />
-      </div>
-    </header>
-  );
+  const [mobileView, setMobileView] = useState(false);
+  useEffect(() => {
+    const resizeHandler = () => {
+      if (window.innerWidth < 428) {
+        setMobileView(true);
+        console.log("true");
+      }
+      if (window.innerWidth > 428) {
+        setMobileView(false);
+        console.log("false");
+      }
+    };
+    resizeHandler();
+    window.addEventListener("resize", resizeHandler);
+    return () => window.removeEventListener("resize", resizeHandler);
+  }, []);
+  return <>{mobileView ? <MobileHero /> : <DesktopHero data={props.data} />}</>;
 }
 
 export default Hero;

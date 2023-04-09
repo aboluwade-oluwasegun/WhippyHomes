@@ -143,17 +143,41 @@
 }
 @media (max-width: 500px) {
   .feature1 {
-    flex-direction: column;
-    margin-bottom: 2rem;
-    text-align: center;
-    margin-top: 2rem;
+    /* flex-direction: column; */
+    margin: 3rem 0;
+    /* text-align: center;
+    margin-top: 2rem; */
+    gap: 2rem;
   }
   .feature2 {
-    flex-direction: column;
-    margin-bottom: 2rem;
-    text-align: center;
+    /* flex-direction: column; */
+    margin-bottom: 3rem;
+    /* text-align: center; */
+    gap: 2rem;
+  }
+  .feature-image__container {
+    width: 8rem;
+    height: 8rem;
+  }
+  .feature1 .feature-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0;
+    text-align: left;
+  }
+  .feature2 .feature-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0;
+    text-align: right;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 350px) {
 }

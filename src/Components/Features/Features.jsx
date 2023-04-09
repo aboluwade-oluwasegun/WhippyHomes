@@ -14,7 +14,7 @@ const Features = () => {
       <Feature className="feature1" img={featureImg1} />
       <Feature className="feature2" img={featureImg2} />
 
-      <Button className="features-btn" click="yeah" />
+      <Button className="navigation-btn" click="click" />
     </section>
   );
 };

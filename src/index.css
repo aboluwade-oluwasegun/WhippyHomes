@@ -3,6 +3,7 @@
 :root {
   --primaryColor: #3a4b69;
   --secondaryColor: #c28c00;
+  --subsidiaryColor: #f2f7ff;
 }
 * {
   box-sizing: border-box;
