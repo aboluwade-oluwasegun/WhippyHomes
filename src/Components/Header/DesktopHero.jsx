@@ -1,5 +1,5 @@
 import Form from "..//Form/Form";
-import "./Hero.css";
+import "./DesktopHero.css";
 import heroImg from "../images/heroImg.png";
 
 const DesktopHero = (props) => {

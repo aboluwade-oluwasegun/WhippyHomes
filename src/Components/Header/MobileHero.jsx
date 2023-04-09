@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
 import mobileHeroImg from "../images/mobileHeroImg.png";
-import "./hi.css";
+import "./MobileHero.css";
 
 const MobileHero = () => {
   return (

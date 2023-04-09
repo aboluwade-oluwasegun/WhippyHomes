@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import DesktopHero from "./DesktopHero";
-import MobileHero from "./mobileHero";
+import MobileHero from "./MobileHero";
 function Hero(props) {
   const [mobileView, setMobileView] = useState(false);
   useEffect(() => {
