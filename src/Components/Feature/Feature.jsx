@@ -1,7 +1,7 @@
 import React from "react";
-import "./Feature.css";
+import "./styles.scss";
 
-const Feature1 = (props) => {
+const Feature = (props) => {
   return (
     <div className={props.className}>
       <div className="feature-image__container">
@@ -15,4 +15,4 @@ const Feature1 = (props) => {
   );
 };
 
-export default Feature1;
+export default Feature;

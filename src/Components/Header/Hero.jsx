@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import DesktopHero from "./DesktopHero";
-import MobileHero from "./MobileHero";
-function Hero(props) {
+import { DesktopHero } from "./DesktopHero";
+import { MobileHero } from "./MobileHero";
+
+const Hero = (props) => {
   const [mobileView, setMobileView] = useState(false);
   useEffect(() => {
     const resizeHandler = () => {
@@ -19,6 +20,6 @@ function Hero(props) {
     return () => window.removeEventListener("resize", resizeHandler);
   }, []);
   return <>{mobileView ? <MobileHero /> : <DesktopHero data={props.data} />}</>;
-}
+};
 
-export default Hero;
+export { Hero };

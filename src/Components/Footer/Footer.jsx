@@ -1,8 +1,8 @@
-import "./Footer.css";
-import facebook from "./facebook.svg";
-import whatsapp from "./whatsapp.svg";
-import twitter from "./twitter.svg";
-import instagram from "./instagram.svg";
+import facebook from "../../assets/svg/facebook.svg";
+import whatsapp from "../../assets/svg/whatsapp.svg";
+import twitter from "../../assets/svg/twitter.svg";
+import instagram from "../../assets/svg/instagram.svg";
+import "./styles.scss";
 
 const Footer = () => {
   return (

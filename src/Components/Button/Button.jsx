@@ -1,5 +1,5 @@
 import React from "react";
-import "./Button.css";
+import "./styles.scss";
 const Button = (props) => {
   const scrollEffectHandler = () => {
     if (props.click === "click") {

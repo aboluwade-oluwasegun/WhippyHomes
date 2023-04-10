@@ -1,6 +1,6 @@
-import Form from "..//Form/Form";
-import "./DesktopHero.css";
-import heroImg from "../images/heroImg.png";
+import Form from "../Form/Form";
+import "./styles.scss";
+import heroImg from "../../assets/images/heroImg.png";
 
 const DesktopHero = (props) => {
   return (
@@ -24,4 +24,4 @@ const DesktopHero = (props) => {
   );
 };
 
-export default DesktopHero;
+export { DesktopHero };

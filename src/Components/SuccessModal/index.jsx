@@ -1,5 +1,6 @@
-import "./SuccessModal.css";
-import circledTick from "./Vector.svg";
+import "./styles.scss";
+import circledTick from "../../assets/svg/Vector.svg";
+
 const SuccessModal = (props) => {
   const closeModal = () => {
     props.onCloseModal();

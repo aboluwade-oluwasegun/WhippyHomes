@@ -1,11 +1,11 @@
 import { useState } from "react";
+import "./App.scss";
 import axios from "axios";
-import Nav from "./Components/Header/Nav";
-import Hero from "./Components/Header/Hero";
-import Features from "./Components/Features/Features";
+import Features from "./Components/Feature";
 import Footer from "./Components/Footer/Footer";
-import WaitlistSection from "./Components/Waitlist/WaitlistSection";
-import SuccessModal from "./Components/SuccessModal/SuccessModal";
+import WaitlistSection from "./Components/Waitlist";
+import SuccessModal from "./Components/SuccessModal";
+import { Hero, Nav } from "./Components/Header";
 function App() {
   const [isSuccess, setIsSuccess] = useState(false);
 
