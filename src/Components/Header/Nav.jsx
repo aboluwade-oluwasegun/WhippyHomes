@@ -1,6 +1,6 @@
-import companyImg from "../images/company-logo.svg";
+import companyImg from "../../assets/svg/company-logo.svg";
+import "./styles.scss";
 
-import "./Nav.css";
 const Nav = () => {
   return (
     <nav>
@@ -8,4 +8,4 @@ const Nav = () => {
     </nav>
   );
 };
-export default Nav;
+export { Nav };

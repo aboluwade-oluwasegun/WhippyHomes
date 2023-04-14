@@ -4,11 +4,13 @@ form {
   flex-direction: column;
   gap: 0.7rem;
 }
+
 .form div {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
+
 .form input {
   display: flex;
   flex-direction: row;
@@ -17,9 +19,11 @@ form {
   outline: none;
   font-size: 1rem;
 }
+
 .form input:focus {
   outline: none;
 }
+
 .form label {
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -31,11 +35,13 @@ form {
 .invalid-email {
   color: red;
 }
+
 @media (max-width: 950px) {
   .form label {
     font-size: 1.1rem;
   }
 }
+
 @media (max-width: 570px) {
   .form label {
     font-size: 1rem;

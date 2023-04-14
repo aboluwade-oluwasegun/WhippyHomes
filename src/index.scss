@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --primaryColor: #3a4b69;
+  --secondaryColor: #c28c00;
+  --subsidiaryColor: #f2f7ff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Lato", "Helvetica Neue", sans-serif;
+}
+
+code {
+  font-family: "Lato", "Helvetica Neue";
+}
+
+table,
+div,
+input,
+p,
+button,
+span,
+input::placeholder {
+  font-family: "Lato", "Helvetica Neue";
+}

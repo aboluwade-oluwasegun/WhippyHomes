@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Button from "../Button/Button";
-import "./Form.css";
-
+import "./styles.scss";
 let regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$/;
 
 const Form = (props) => {

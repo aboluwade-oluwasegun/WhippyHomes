@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
-import mobileHeroImg from "../images/mobileHeroImg.png";
-import "./MobileHero.css";
+import mobileHeroImg from "../../assets/images/mobileHeroImg.png";
+import "./styles.scss";
 
 const MobileHero = () => {
   return (
@@ -17,4 +17,4 @@ const MobileHero = () => {
   );
 };
 
-export default MobileHero;
+export { MobileHero };

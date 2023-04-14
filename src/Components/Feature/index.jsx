@@ -1,8 +1,8 @@
 import Feature from "./Feature";
-import featureImg1 from "./featureImg1.png";
-import featureImg2 from "./featureImg2.png";
+import featureImg1 from "../../assets/images/featureImg1.png";
+import featureImg2 from "../../assets/images/featureImg2.png";
 import Button from "../Button/Button";
-import "./Features.css";
+import "./styles.scss";
 
 const Features = () => {
   return (

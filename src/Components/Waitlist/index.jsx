@@ -1,8 +1,8 @@
 import Form from "../Form/Form";
-import waitlistImg from "./waitlistImg.png";
-import Logo from "../images/company-logo.svg";
+import waitlistImg from "../../assets/images/waitlistImg.png";
+import Logo from "../../assets/svg/company-logo.svg";
 
-import "./WaitlistSection.css";
+import "./styles.scss";
 const WaitlistSection = () => {
   return (
     <section className="waitlistSection">

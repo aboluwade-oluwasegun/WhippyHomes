@@ -1,9 +1,7 @@
 .waitlist-cta {
   padding: 0.7rem;
   border-radius: px;
-
   background: #3a4b69;
-
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -12,10 +10,12 @@
   color: #fefefe;
   text-align: center;
 }
+
 .form-btn {
   width: 100%;
   border: 2px solid var(--primaryColor);
 }
+
 .navigation-btn {
   width: 45%;
   text-align: center;
@@ -35,34 +35,38 @@
   color: #fefefe;
   border: none;
 }
+
 .navigation-btn:hover {
   transition: ease-in 1s;
-
   box-shadow: inset 400px 0 0 0 var(--secondaryColor);
   color: var(--primaryColor);
 }
+
 .form-btn:hover {
   transition: ease-in 1s;
-
   box-shadow: inset 450px 0 0 0 #fff;
   color: var(--primaryColor);
   border: 2px solid var(--primaryColor);
 }
+
 @media (max-width: 1000px) {
   .navigation-btn {
     width: 50%;
   }
 }
+
 @media (max-width: 750px) {
   .navigation-btn {
     width: 55%;
   }
 }
+
 @media (max-width: 550px) {
   .navigation-btn {
     width: 70%;
   }
 }
+
 @media (max-width: 428px) {
   .navigation-btn {
     width: 60%;
@@ -73,6 +77,7 @@
     border-radius: 4px;
   }
 }
+
 @media (max-width: 350px) {
   .features-btn {
     width: 70%;
