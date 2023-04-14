@@ -7,11 +7,9 @@ function Hero(props) {
     const resizeHandler = () => {
       if (window.innerWidth < 428) {
         setMobileView(true);
-        console.log("true");
       }
       if (window.innerWidth > 428) {
         setMobileView(false);
-        console.log("false");
       }
     };
     resizeHandler();

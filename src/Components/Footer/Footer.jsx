@@ -17,23 +17,32 @@ const Footer = () => {
 
       <ul className="socials-navigation">
         <li className="socials-links">
-          <a>
-            <img src={facebook} alt="img1" />
+          <a
+            href="https://www.facebook.com/profile.php?id=100091771032107"
+            target="blank"
+          >
+            <img src={facebook} alt="Facebook Logo" />
           </a>
         </li>
         <li className="socials-links">
           <a>
-            <img src={whatsapp} alt="img1" />
+            <img src={whatsapp} alt="Whatsapp Logo" />
           </a>
         </li>
         <li className="socials-links">
-          <a>
-            <img src={twitter} alt="img1" />
+          <a
+            href="https://twitter.com/whippy_homes?s=11&t=-6UFfNgpBnah3dBjCtcwtQ"
+            target="blank"
+          >
+            <img src={twitter} alt="Twitter Logo" />
           </a>
         </li>
         <li className="socials-links">
-          <a>
-            <img src={instagram} alt="img1" />
+          <a
+            href="https://instagram.com/whippyhomes?igshid=YmMyMTA2M2Y"
+            target="blank"
+          >
+            <img src={instagram} alt="Instagram Logo" />
           </a>
         </li>
       </ul>

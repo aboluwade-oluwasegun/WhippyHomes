@@ -40,10 +40,11 @@
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 39px;
-  /* Blue */
   color: #3a4b69;
-  /* width: 45%; */
   padding: 0 10rem;
+}
+.feature2 .feature-text {
+  text-align: right;
 }
 @media (max-width: 1400px) {
   .feature-text {
@@ -143,16 +144,12 @@
 }
 @media (max-width: 500px) {
   .feature1 {
-    /* flex-direction: column; */
     margin: 3rem 0;
-    /* text-align: center;
-    margin-top: 2rem; */
+
     gap: 2rem;
   }
   .feature2 {
-    /* flex-direction: column; */
     margin-bottom: 3rem;
-    /* text-align: center; */
     gap: 2rem;
   }
   .feature-image__container {
