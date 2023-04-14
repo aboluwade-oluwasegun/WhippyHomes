@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./styles.scss";
 import facebook from "./facebook.svg";
 import whatsapp from "./whatsapp.svg";
 import twitter from "./twitter.svg";
