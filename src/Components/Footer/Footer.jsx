@@ -39,7 +39,7 @@ const Footer = () => {
         </li>
         <li className="socials-links">
           <a
-            href="https://instagram.com/whippyhomes?igshid=YmMyMTA2M2Y"
+            href="https://instagram.com/whippyhomes?igshid=YmMyMTA2M2Y="
             target="blank"
           >
             <img src={instagram} alt="Instagram Logo" />
