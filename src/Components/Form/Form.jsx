@@ -53,13 +53,13 @@ const Form = (props) => {
     }
   };
   if (invalidName) {
-    content = "Name fields must not be empty";
+    content = "Please input your name";
   }
   if (invalidEmail) {
-    content = "Email must contain @ and must be the right mail format";
+    content = "Please input a valid email address";
   }
   if (invalidPhoneNo) {
-    content = "Phone Number must be greater than 11 digits";
+    content = "Please input a valid phone number";
   }
   return (
     <form className="form" onSubmit={submitHandler}>
