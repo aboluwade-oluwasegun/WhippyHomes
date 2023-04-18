@@ -90,7 +90,7 @@ const Form = (props) => {
           onChange={enteredPhoneNoHandler}
         />
         {(invalidName || invalidEmail || invalidPhoneNo) && (
-          <p className="invalid-email">Invalid {content}</p>
+          <p className="invalid-email">{content}</p>
         )}
       </div>
       <Button className="form-btn" />
